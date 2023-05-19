@@ -6,10 +6,6 @@
         {
             "route": "/",
             "redirect": "/ja/",
-            "allowedRoles": ["anonymous"],
-            "headers": {
-                "Cache-Control": "no-store"
-            },
             "statusCode": 302
         }
     ],
