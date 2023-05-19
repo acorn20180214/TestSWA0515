@@ -2,6 +2,15 @@
     "navigationFallback": {
         "rewrite": "/index.html"
     },
+    "routes": [
+        {
+            "route": "/",
+            "allowedRoles": ["authenticated"],
+            "headers": {
+                "Cache-Control": "no-store"
+            }
+        }
+    ],
     "networking": {
         "allowedIpRanges": [
            "AzureFrontDoor.Backend"
