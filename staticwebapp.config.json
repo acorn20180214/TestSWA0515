@@ -5,7 +5,7 @@
     "routes": [
         {
             "route": "/",
-            "allowedRoles": ["authenticated"],
+            "allowedRoles": ["anonymous"],
             "headers": {
                 "Cache-Control": "no-store"
             }
