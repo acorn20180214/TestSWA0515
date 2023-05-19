@@ -1,17 +1,15 @@
 {
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    },
+  "trailingSlash": "auto",
     "routes": [
-        {
-            "route": "/",
-            "redirect": "/ja/",
-            "statusCode": 302
-        }
-    ],
-    "networking": {
-        "allowedIpRanges": [
-           "AzureFrontDoor.Backend"
-        ]
+    {
+      "route": "/",
+      "redirect": "/ja/",
+      "statusCode": 302
     }
+  ],
+  "networking": {
+    "allowedIpRanges": [
+      "AzureFrontDoor.Backend"
+    ]
+  }
 }
